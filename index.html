@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="flex justify-center items-center h-screen ">
+        <div class="bg-linear-to-r/decreasing from-indigo-500 to-teal-400 w-[450px] p-7 rounded-lg">
+
+            <div class="flex justify-between items-center gap-2">
+            <input type="text" name="" id="" placeholder="Enter city name" class="bg-white text-xl text-black py-3 px-5 rounded-4xl border-0 outline-0 w-full">
+            <img src="./assets/search.png" alt="" class="w-[48px] h-[48px] bg-white rounded-full p-3">
+            </div>
+
+            <div class="flex justify-center">
+            <img src="./assets/clear.png" alt="">
+            </div>
+
+            <h3 class="text-6xl text-center text-white font-semibold py-2">7°C</h3>
+            <h3 class="text-4xl text-center text-white font-medium">New Work</h3>
+
+            <div class="flex justify-between mt-8">
+                <div class="flex gap-2 items-center text-white">
+                    <img src="./assets/humidity.png" alt="" class="w-[48px] h-[48px]">
+                    <div>
+                        <h3 class="text-2xl ">43</h3>
+                        <p class="text-2xl ">Humidy</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 items-center text-white">
+                    <img src="./assets/wind.png" alt="" class="w-[48px] h-[48px]">
+                    <div>
+                        <h3 class="text-2xl ">43</h3>
+                        <p class="text-2xl ">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+
+    </div>
+
+
+
+    <script src="./logic.js"></script>
+</body>
+</html>
