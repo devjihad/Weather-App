@@ -23,22 +23,22 @@ else{
  document.querySelector('#wind').innerHTML=data.wind.speed +"km/h"
 
 if(data.weather[0].main =="Clouds"){
-    image.src ='/assets/clouds.png'
+    image.src ='./assets/clouds.png'
 }
 else if( data.weather[0].main =="Clear"){
-    image.src ='/assets/clear.png'
+    image.src ='./assets/clear.png'
 }
 else if( data.weather[0].main =="Rain"){
-    image.src ='/assets/rain.png'
+    image.src ='./assets/rain.png'
 }
 else if( data.weather[0].main =="Drizzle"){
-    image.src ='/assets/drizzle.png'
+    image.src ='./assets/drizzle.png'
 }
 else if( data.weather[0].main =="Mist"){
-    image.src ='/assets/mist.png'
+    image.src ='./assets/mist.png'
 }
 else if( data.weather[0].main =="Snow"){
-    image.src ='/assets/snow.png'
+    image.src ='./assets/snow.png'
 }
 Main.style.display ='block'
 Errore.style.display= 'none'
